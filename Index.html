@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pira Pizza</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <div class="logo">AURA PIZZA</div>
+    <a href="#contact" class="btn">Get Started</a>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div>
+      <h1>Hot & Fresh, <br><span class="grad-text">Right to Your Door.</span></h1>
+     <p style="color: var(--muted); margin-bottom: 1.5rem;">
+  The ultimate late-night comfort food. Crave-worthy slices, artisan sauces, and signature dips available until 2 AM.
+</p>
+      <a href="#pricing" class="btn">Order Now</a>
+    </div>
+    <div class="hero-box">🍕🔥</div>
+  </section>
+
+  <!-- FEATURES -->
+  <section id="features">
+    <h2>Why <span class="grad-text">CRUST CLUB?</span></h2>
+    <div class="grid">
+      <div class="card">
+        <h3>🌾 48-Hour Fermentation</h3>
+        <p style="color: var(--muted);">Slow-risen sourdough for maximum flavor and an airy, digestible crust.</p>
+      </div>
+      <div class="card">
+        <h3>🔥 900° Wood-Fired</h3>
+        <p style="color: var(--muted);">Sealed in under 90 seconds in authentic stone ovens for the perfect leopard-spotted char.</p>
+      </div>
+      <div class="card">
+        <h3>🧀 Italian Imports</h3>
+        <p style="color: var(--muted);">San Marzano tomatoes, fresh Fior di Latte mozzarella, and extra virgin olive oil.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section id="reviews">
+    <h2>Customer <span class="grad-text">Reviews</span></h2>
+    <div class="grid">
+      <div class="card">
+        <p>"Hands down the best sourdough crust in the city. Perfectly crisp, chewy, and incredible flavor!"</p>
+        <small style="color: var(--muted);">- Sarah J.</small>
+      </div>
+      <div class="card">
+        <p>"Arrived piping hot in under 25 minutes. The spicy salami and honey dip is an absolute game-changer."</p>
+        <small style="color: var(--muted);">- Alex M.</small>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING / MENU -->
+  <section id="pricing">
+    <h2>Popular <span class="grad-text">Deals</span></h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Solo Box</h3>
+        <div class="price">$18</div>
+        <p style="color: var(--muted); margin-bottom: 1rem;">1 Artisan Pizza + 1 Signature Dip + Drink</p>
+        <a href="#contact" class="btn" style="background: transparent; border: 1px solid var(--border);">Order Solo</a>
+      </div>
+      <div class="card popular">
+        <h3>Party Bundle</h3>
+        <div class="price">$45</div>
+        <p style="color: var(--muted); margin-bottom: 1rem;">3 Artisan Pizzas + Garlic Knots + 3 Dips</p>
+        <a href="#contact" class="btn">Order Bundle</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT / ORDER FORM -->
+  <section id="contact">
+    <h2>Place Your <span class="grad-text">Order</span></h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" placeholder="Email or Phone Number" required>
+      <textarea rows="4" placeholder="Delivery address and special instructions..." required></textarea>
+      <button type="submit" class="btn">Submit Order</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
